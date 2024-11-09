@@ -1,0 +1,18 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Tarefa</title>
+    <script>
+        function excluirTarefa(id) {
+            if (confirm("Tem certeza que deseja excluir esta tarefa?")) {
+                // Realiza a exclusão via AJAX ou redirecionamento
+                console.log("Tarefa " + id + " excluída.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="excluirTarefa(1)">Excluir Tarefa</button>
+</body>
+</html>
